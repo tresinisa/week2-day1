@@ -1,0 +1,65 @@
+input[type=text], [type=email]{
+    padding: 2px 2px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid purple;
+}
+label, legend{
+    font-family: "tahoma";
+}
+input{
+    width: 40%;
+}
+input[type=radio]{
+    width:20px;
+}
+textarea{
+    border: 2px solid purple;
+}
+input[type=submit]{
+    background-color: purple;
+    color: white;
+    width: 30%;
+}
+input[type=radio]+label{
+    color: purple;
+}
+/* div{
+    height: 150px;
+    width: 150px;
+    background-color: lightskyblue;
+    transition: width 2s, height 2s;
+}
+div:hover{
+    width: 250px;
+    height: 250px;
+} */
+
+@keyframes example{
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: greenyellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: orange; left: 0px; top: 200px;}
+    100% {background-color: pink; left: 0px; top: 0px;}
+} 
+
+div{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: pink;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+/* delay animation for seconds */
+animation delay
+
+/* loop animations */
+animation-iteration-count
+
+/* animation backwards */
+animation-direction
+
+/* one speed for animation */
+animation-timing-function
