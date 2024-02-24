@@ -53,13 +53,12 @@ div{
 
 }
 /* delay animation for seconds */
-animation delay
+/* animation delay */
 
 /* loop animations */
-animation-iteration-count
+/* animation-iteration-count */
 
 /* animation backwards */
-animation-direction
+/* animation-direction */
 
 /* one speed for animation */
-animation-timing-function
